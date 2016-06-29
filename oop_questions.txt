@@ -1,7 +1,11 @@
 1. Describe the difference between a Class and an Object.
+Object - Objects have states and behaviors. Example: A dog has states - color, name, breed as well as behaviors -wagging, barking, eating. An object is an instance of a class.
+
+ Class - A class can be defined as a template/blue print that describes the behaviors/states that object of its type support. A class is a blue print from which individual objects are created
 
 
 2. What keyword do you use to turn a normal Class into a Subclass? (choose one)
+-b
   a. implements
   b. extends
   c. uses
@@ -9,19 +13,24 @@
 
 
 3. Describe the difference between public and private?
+- public is open to every one, but private is not
 
 
 4. Can a subclass access a private method of its parent class? (choose one)
+- b
   a. Yes
   b. No
 
 
 5. Define the term constructor.
+- A constructor in Java is a block of code similar to a method that's called when an instance of an object is created. 
 
 
 6. Can you access a static method of a class without making an instance of it? (choose one)
+- Yes
   a. Yes
   b. No
 
 
 7. Describe the purpose of overriding a method.
+- to define a behaviour that's specific to the subclass type which means a subclass can implement a parent class method based on its requirement.

@@ -8,9 +8,7 @@ public class Main {
         Dragon dragonOne = new Dragon(3, 5);
         Zombie zombieOne = new Zombie(5, 7);
 
-        dragonOne.aboutMe();
-        int aaa = dragonOne.getmDamage();
-        System.out.println(aaa);
+        Zombie.about
 
         //TODO: Loop through the array of Monsters, printing out something for each Monster
 

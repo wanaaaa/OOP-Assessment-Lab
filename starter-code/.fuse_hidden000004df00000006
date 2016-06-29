@@ -9,16 +9,7 @@ public abstract class Monster {
     private int mDamage;
 
     public Monster (int health, int damage) {
-        mHealth = health;
-        mDamage = damage;
-    }
-
-    public int getmHealth() {
-        return mHealth;
-    }
-
-    public int getmDamage() {
-        return mDamage;
+        
     }
 
 
